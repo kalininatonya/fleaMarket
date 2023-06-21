@@ -1,7 +1,6 @@
 # Flea market
-<div align="center">
-  <img src="fleaMarket.gif" width="300" height="250" alt="FleaMarket"/>
-</div>
+![FleaMarket](fleaMarket.gif)
+---
 
 ### Stack
 + React
