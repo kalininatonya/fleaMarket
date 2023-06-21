@@ -1,0 +1,138 @@
+.imagesContainer {
+    position: relative;
+}
+
+.iconHeartOnImages {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    cursor: pointer;
+    fill: var(--color-gray);
+    z-index: var(--z-index-icon-heart);
+}
+
+.iconHeartOnImages:hover {
+    width: 35px;
+    height: 35px;
+}
+
+.selectedIconHeartOnImages {
+    fill: var(--color-blue);
+}
+
+.image {
+    width: 280px;
+    height: 210px;
+    cursor: pointer;
+    transition: transform 2s;
+}
+
+.caption {
+    font-weight: var(--font-weight-bold);
+    color: var(--color-blue);
+}
+
+.money {
+    display: block;
+    margin: 5px 0 20px 0;
+    font-weight: var(--font-weight-middle);
+    font-size: 20px;
+    color: var(--color-black);
+}
+
+.addressContainer {
+    display: flex;
+    align-items: center;
+}
+
+.iconMarker {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    fill: var(--color-gray);
+}
+
+.address {
+    font-size: var(--font-size-normal);
+    font-weight: var(--font-weight-middle);
+    color: var(--color-gray);
+}
+
+.date {
+    font-size: 11px;
+    font-weight: var(--font-weight-bold);
+    color: var(--color-gray);
+}
+
+@media (max-width: 975px) {
+    .image {
+        width: 230px;
+        height: 160px;
+        transform: scale(0.9);
+    }
+}
+
+@media (max-width: 875px) {
+    .image {
+        width: 280px;
+        height: 210px;
+    }
+
+    .iconHeartOnImages {
+        left: 10px;
+        top: 5px;
+    }
+
+    .descriptionContainer {
+        padding-top: 10px;
+    }
+}
+
+@media (max-width: 645px) {
+    .image {
+        width: 260px;
+        height: 190px;
+    }
+
+    .descriptionContainer {
+        padding-top: 0;
+        padding-bottom: 8px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .money {
+        margin: 0;
+        font-size: var(--font-size-normal);
+    }
+}
+
+@media (max-width: 545px) {
+    .image {
+        width: 210px;
+        height: 140px;
+    }
+
+    .iconMarker {
+        width: 16px;
+        height: 16px;
+    }
+
+}
+
+@media (max-width: 360px) {
+    .address {
+        font-size: var(--font-size-small);
+    }
+
+    .iconMarker {
+        width: 15px;
+        height: 15px;
+    }
+
+    .iconHeartOnImages {
+        left: 0;
+        top: -5px;
+    }
+}
