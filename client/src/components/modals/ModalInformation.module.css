@@ -1,0 +1,140 @@
+.modalContainer {
+    position: fixed;
+    z-index: var(--z-index-modal);
+}
+
+.modalOverlay {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--color-gray);
+    opacity: 50%;
+}
+
+.modalContentContainer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 50px;
+    max-width: 550px;
+    margin: auto;
+    z-index: 100;
+    background-color: var(--color-white);
+    border-radius: var(--border-radius);
+}
+
+.header {
+    margin: 10px 20px;
+}
+
+.date {
+    font-size: 11px;
+    font-weight: var(--font-weight-middle);
+    color: var(--color-gray);
+}
+
+.product {
+    margin: 10px 0;
+}
+
+.money {
+    font-weight: var(--font-weight-middle);
+    font-size: 20px;
+    color: var(--color-black);
+}
+
+.modalIconClose {
+    position: absolute;
+    right: 12px;
+    top: 10px;
+    width: 20px;
+    height: 21px;
+    cursor: pointer;
+    background: url('../../icons/close.svg') no-repeat;
+    border: none;
+}
+
+.modalIconClose:hover {
+    transform: scale(1.2);
+}
+
+.modalContent {
+    padding: 0 20px 10px 20px;
+    overflow: auto;
+    height: 450px;
+}
+
+.mapContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.selectedImage {
+    width: 250px;
+    height: 170px;
+    margin-right: 10px;
+}
+
+.map {
+    width: 250px;
+    height: 115px;
+    margin-right: 0;
+}
+
+.addressContainer {
+    display: flex;
+    align-items: center;
+    width: 250px;
+}
+
+.address {
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-middle);
+    color: var(--color-gray);
+}
+
+.iconMarker {
+    width: 20px;
+    height: 20px;
+    margin-right: 7px;
+    fill: var(--color-gray);
+}
+
+.imagesContainer {
+    display: flex;
+}
+
+.image {
+    width: 120px;
+    height: 90px;
+    margin: 5px 10px 5px 0;
+    cursor: pointer;
+}
+
+.infoContainer {
+    display: flex;
+}
+
+.info {
+   margin-right: 15px;
+}
+
+.label {
+    display: block;
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-gray);
+}
+
+.infoText {
+    color: var(--color-blue);
+}
+
+.infoContainer,
+.description,
+.seller {
+    margin-bottom: 15px;
+}
+
+[class*='copyrights-pane'] {
+    display: none !important;
+}
