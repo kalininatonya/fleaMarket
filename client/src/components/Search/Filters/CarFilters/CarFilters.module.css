@@ -1,0 +1,77 @@
+.label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-gray);
+}
+
+.yearsContainer {
+    margin-bottom: 20px;
+}
+
+.years {
+    padding: 8px;
+    min-width: 250px;
+    cursor: pointer;
+    border: var(--border);
+    border-radius: var(--border-radius);
+}
+
+.years:focus-visible {
+    outline: none;
+}
+
+.transmissionContainer {
+    margin-bottom: 20px;
+}
+
+.buttonContainer {
+
+}
+
+.buttonTransmission {
+    padding: 10px 15px;
+    color: var(--color-blue);
+    background: none;
+    border-top: var(--border);
+    border-bottom: var(--border);
+    border-left: var(--border);
+    border-right: none;
+}
+
+.buttonTransmission:hover {
+    color: var(--color-white);
+    background-color: var(--color-hover);
+}
+
+.buttonSelected {
+    color: var(--color-white);
+    background-color: var(--color-blue);
+}
+
+.firstButtonTransmission {
+    border-top-left-radius: var(--border-radius);
+    border-bottom-left-radius: var(--border-radius);
+}
+
+.lastButtonTransmission {
+    border-right: var(--border);
+    border-top-right-radius: var(--border-radius);
+    border-bottom-right-radius: var(--border-radius);
+}
+
+.checkboxContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.labelForCheckbox {
+    cursor: pointer;
+    color: var(--color-blue);
+}
+
+.checkbox {
+    margin: 10px;
+}

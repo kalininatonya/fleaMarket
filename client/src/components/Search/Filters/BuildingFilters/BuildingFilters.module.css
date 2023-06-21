@@ -1,0 +1,77 @@
+.checkboxContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-gray);
+}
+
+.labelForCheckbox {
+    cursor: pointer;
+    color: var(--color-blue);
+}
+
+.checkbox {
+    margin: 10px;
+}
+
+.squareContainer {
+    margin-bottom: 20px;
+}
+
+.square {
+    padding: 8px;
+    min-width: 230px;
+    cursor: pointer;
+    border: var(--border);
+    border-radius: var(--border-radius);
+}
+
+.square:focus-visible {
+    outline: none;
+}
+
+.numberOfRoomsContainer {
+    margin-bottom: 20px;
+}
+
+.buttonContainer {
+
+}
+
+.buttonRooms {
+    padding: 10px 13px;
+    color: var(--color-blue);
+    background: none;
+    border-top: var(--border);
+    border-bottom: var(--border);
+    border-left: var(--border);
+    border-right: none;
+}
+
+.firstButtonRooms {
+    border-top-left-radius: var(--border-radius);
+    border-bottom-left-radius: var(--border-radius);
+}
+
+.lastButtonRooms {
+    border-right: var(--border);
+    border-top-right-radius: var(--border-radius);
+    border-bottom-right-radius: var(--border-radius);
+}
+
+.buttonRooms:hover {
+    color: var(--color-white);
+    background-color: var(--color-hover);
+}
+
+.buttonSelected {
+    color: var(--color-white);
+    background-color: var(--color-blue);
+}

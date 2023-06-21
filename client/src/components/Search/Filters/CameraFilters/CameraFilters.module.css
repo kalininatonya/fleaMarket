@@ -1,0 +1,41 @@
+.label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-gray);
+}
+
+.videoResolutionContainer,
+.matricesContainer {
+    margin-bottom: 20px;
+}
+
+.videoResolution,
+.matrices {
+    padding: 8px;
+    min-width: 250px;
+    cursor: pointer;
+    border: var(--border);
+    border-radius: var(--border-radius);
+}
+
+.videoResolution:focus-visible,
+.matrices:focus-visible {
+    outline: none;
+}
+
+.checkboxContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.labelForCheckbox {
+    cursor: pointer;
+    color: var(--color-blue);
+}
+
+.checkbox {
+    margin: 10px;
+}

@@ -1,0 +1,60 @@
+.minScreenSizeContainer,
+.RAMContainer,
+.notebooksContainer {
+    margin-bottom: 20px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-gray);
+}
+
+.checkboxContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.labelForCheckbox {
+    cursor: pointer;
+    color: var(--color-blue);
+}
+
+.checkbox {
+    margin: 10px;
+}
+
+.buttonRAM,
+.buttonMinScreenSize {
+    padding: 10px 14px;
+    color: var(--color-blue);
+    background: none;
+    border-top: var(--border);
+    border-bottom: var(--border);
+    border-left: var(--border);
+    border-right: none;
+}
+
+.buttonRAM:hover {
+    color: var(--color-white);
+    background-color: var(--color-hover);
+}
+
+.firstButton {
+    border-top-left-radius: var(--border-radius);
+    border-bottom-left-radius: var(--border-radius);
+}
+
+.lastButton {
+    border-right: var(--border);
+    border-top-right-radius: var(--border-radius);
+    border-bottom-right-radius: var(--border-radius);
+}
+
+.buttonSelected {
+    color: var(--color-white);
+    background-color: var(--color-blue);
+}
