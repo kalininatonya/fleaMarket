@@ -1,0 +1,19 @@
+:root {
+    --font-size-normal: 15px;
+    --font-size-small: 13px;
+    --font-weight-middle: 600;
+    --font-weight-bold: 700;
+    --color-gray: #bbbbd0;
+    --color-light-gray: #d8d8e1;
+    --color-white: #ffffff;
+    --color-black: #000000;
+    --color-blue: #302683;
+    --color-dark-blue: #010424;
+    --color-hover: #584adc;
+    --border: 1px solid var(--color-light-gray);
+    --border-selected: 1px solid var(--color-blue);
+    --border-hover: 1px solid var(--color-hover);
+    --border-radius: var(--border-radius);
+    --z-index-icon-heart: 100;
+    --z-index-modal: 200;
+}
